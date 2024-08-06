@@ -1,0 +1,24 @@
+[
+   {
+      "img_fn":"boil/Ex4.jpg",
+      "movie":"boil",
+      "metadata_fn":"boil/Ex4.json",
+      "split":"custom",
+      "place":"inside",
+      "event":"1 is boiling broccoli",
+      "intent":["to make broccoli soup", "prepare lemony broccoli and chickpea rigatoni", "to use broccoli in a salad"],
+      "before":["wash broccoli", "get broccoli from the refrigerator", "cut broccoli into medium sized pieces"],
+      "after":["season the broccoli", "grind the broccoli into a thick paste", "mix broccoli with pasta"]
+   },
+   {
+      "img_fn":"cut/Ex3.jpg",
+      "movie":"cut",
+      "metadata_fn":"cut/Ex3.json",
+      "split":"custom",
+      "place":"inside",
+      "event":"1 is cutting apple",
+      "intent":["to eat apple", "prepare apple pie", "to use in a salad"],
+      "before":["wash apple", "buy apple from supermarket", ""],
+      "after":["eat apple", "mix apple with other ingredients and toss", "stuff apple mixture inside pie dough"]
+   }
+]
