@@ -38,6 +38,7 @@ The demo requires using two python notebooks:\
 
 - This development is an extension of visualcomet and build upon the code https://github.com/jamespark3922/visual-comet, specifically from the action understanding point of view.   
 
-- For batch experiments, you must download the full feature.zip (5.5GB compressed) from https://drive.google.com/file/d/1-6uEBWHEX8yEQ-hu3mmrzFrgMhPyeIzY/view?usp=share_link and extract inside this folder.
+- For batch experiments, you must download the entire codebase at https://drive.google.com/drive/folders/1xP7IX1CSAzJnj9lbP5-rkNeZYpJ8jM_4?usp=share_link including full feature.zip (5.5GB compressed). Extract the feature.zip inside this folder. Then run:
+<code>python scripts/run_generation.py --data_dir /path/to/visualcomet_data/ --model_name_or_path experiments/image_inference-80000-ckpt/ --split train/test/val</code>
 
 - If you are interested in accessing scraped video or audio corresponding to YouCook2 dataset, refer to https://drive.google.com/drive/folders/18JtchtOLM5L3HlA0dkhnTMxY-d9XaCcw?usp=share_link.
